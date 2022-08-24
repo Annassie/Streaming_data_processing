@@ -56,7 +56,7 @@ _raw_rate.printSchema()_
 ![filtered streaming](https://github.com/Annassie/Streaming_data_processing/blob/Anna_Niukkanen_task_1/screenshots/task_1/Screenshot%202022-08-19%20at%2016.53.08.png)
 
 
-### Creating filtered streaming and added a new column by _.withColumn- function
+### Creating filtered streaming and added a new column by _.withColumn- function_
 
 ![.withCOlumn](https://github.com/Annassie/Streaming_data_processing/blob/Anna_Niukkanen_task_1/screenshots/task_1/Screenshot%202022-08-19%20at%2017.14.40.png)
 
