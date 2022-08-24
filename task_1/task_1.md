@@ -7,9 +7,11 @@
 
 ![Spark starting](https://github.com/Annassie/Streaming_data_processing/blob/Anna_Niukkanen_task_1/screenshots/task_1/Screenshot%202022-08-24%20at%2020.36.58.png)
 
-###
+### Importing functions
 
-![]()
+_from pyspark.sql import functions as F_
+
+![Functions importing](https://github.com/Annassie/Streaming_data_processing/blob/Anna_Niukkanen_task_1/screenshots/task_1/Screenshot%202022-08-18%20at%2017.17.49.png)
 
 
 ###
