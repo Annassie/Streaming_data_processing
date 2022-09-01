@@ -8,7 +8,7 @@ _cd /usr/hdp/3.1.4.0-315/kafka/bin_
 
 _./kafka-topics.sh --list --zookeeper bigdataanalytics-worker-3:2181_
 
-![Check topics]()
+![Check topics](https://github.com/Annassie/Streaming_data_processing/blob/Anna_Niukkanen_task_2/screenshots/screen_task_2/Screenshot%202022-09-01%20at%2018.09.28.png)
 
 ### Deleting topic "lesson_2"
 
@@ -16,7 +16,7 @@ _./kafka-topics.sh --list --zookeeper bigdataanalytics-worker-3:2181_
 
 ### Then creaing it again
 
-![Create lesson_2]()
+![Create lesson_2](https://github.com/Annassie/Streaming_data_processing/blob/Anna_Niukkanen_task_2/screenshots/screen_task_2/Screenshot%202022-08-31%20at%2021.26.00.png)
 
 #### with partions 3, replications 2 and retention.ms=-1
 
