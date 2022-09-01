@@ -16,8 +16,6 @@ _./kafka-topics.sh --list --zookeeper bigdataanalytics-worker-3:2181_
 
 ### Then creaing it again
 
-![Create lesson_2](https://github.com/Annassie/Streaming_data_processing/blob/Anna_Niukkanen_task_2/screenshots/screen_task_2/Screenshot%202022-08-31%20at%2021.26.00.png)
-
 #### with partions 3, replications 2 and retention.ms=-1
 
 _./kafka-topics.sh --create --topic lesson_2 --zookeeper bigdataanalytics-worker-3:2181 --partitions 3 --replication-factor 2 --config retention.ms=-1_
