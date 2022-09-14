@@ -19,7 +19,7 @@ _for row in reader:
         __json.dump(row, jsonfile)_
 _jsonfile.write('\n')__
 
-
+![Trasform .csv](https://github.com/Annassie/Streaming_data_processing/blob/Anna_Niukkanen_task_3/screenshots/screen_task_3/Screenshot%202022-09-07%20at%2020.20.31.png)
 
 #### Then running python script to convert .csv file into .json file:
 
