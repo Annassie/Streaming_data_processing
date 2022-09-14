@@ -33,13 +33,14 @@ _/usr/hdp/3.1.4.0-315/kafka/bin/kafka-console-producer.sh --topic niukkanen_iris
 
 _/usr/hdp/3.1.4.0-315/kafka/bin/kafka-topics.sh --list --zookeeper bigdataanalytics-worker-3:2181_
 
-
-
+![Topic list](https://github.com/Annassie/Streaming_data_processing/blob/Anna_Niukkanen_task_3/screenshots/screen_task_3/Screenshot%202022-09-14%20at%2016.23.05.png)
 
 
 Then let’s try to read the topic from consumer:
 
 _/usr/hdp/3.1.4.0-315/kafka/bin/kafka-console-consumer.sh --topic niukkanen_iris --bootstrap-server bigdataanalytics-worker-3:6667 --from-beginning --max-messages 10_
+
+![Topic reading](https://github.com/Annassie/Streaming_data_processing/blob/Anna_Niukkanen_task_3/screenshots/screen_task_3/Screenshot%202022-09-14%20at%2022.01.17.png)
 
 
 #### Next we set “env variable” by command: export SPARK_KAFKA_VERSION=0.10
@@ -50,4 +51,6 @@ _/usr/hdp/3.1.4.0-315/kafka/bin/kafka-console-consumer.sh --topic niukkanen_iris
 _pyspark –packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.2_
 
 (Organization: apache.spark CF. costum package)
+
+![Pyspark running with packages](https://github.com/Annassie/Streaming_data_processing/blob/Anna_Niukkanen_task_3/screenshots/screen_task_3/Screenshot%202022-09-14%20at%2022.12.54.png)
 
